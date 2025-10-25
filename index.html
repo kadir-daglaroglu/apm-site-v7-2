@@ -1,138 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Home, Our Care — Alanya Property Management</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Home, Our Care – Alanya Property Management</title>
+
   <meta name="description" content="Alanya Property Management: Property sales & rentals, renovation, cleaning, pool & garden maintenance. English & Russian support.">
   <meta name="description" content="Управление недвижимостью в Аланье: продажа и аренда, ремонт, клининг, обслуживание бассейна и сада. Поддержка EN/RU." data-lang="ru">
+
   <link rel="stylesheet" href="./assets/style.css">
   <link rel="canonical" href="index.html">
   <link rel="alternate" href="index.html?lang=en" hreflang="en">
   <link rel="alternate" href="index.html?lang=ru" hreflang="ru">
   <link rel="alternate" href="index.html" hreflang="x-default">
-  <meta property="og:title" content="Your Home, Our Care — Alanya Property Management">
+
+  <meta property="og:title" content="Your Home, Our Care – Alanya Property Management">
   <meta property="og:description" content="Alanya Property Management: Property sales & rentals, renovation, cleaning, pool & garden maintenance. English & Russian support.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="ru_RU">
 </head>
+
 <body>
-<a class="skip" href="#main">Skip to main content</a>
+  <a class="skip" href="#main">Skip to main content</a>
 
-<header class="header-desktop">
-  <div class="header-container">
-    <div class="header-left">
-      <a href="index.html" class="brand">
-        <img src="assets/palm-white.png" alt="Palm logo" class="brand-mark">
-        <span class="brand-title">Your Home, Our Care</span>
-      </a>
-    </div>
-    <div class="header-center">
-      <nav class="main-nav">
-        <a href="index.html#">Home</a>
-        <a href="index.html#services">Services</a>
-        <a href="index.html#why">Why Us</a>
-        <a href="index.html#contact">Contact</a>
-      </nav>
-    </div>
-    <div class="header-right">
-      <button id="btn-en" class="flag-btn"><span class="flag">🇬🇧</span></button>
-      <button id="btn-ru" class="flag-btn"><span class="flag">🇷🇺</span></button>
-    </div>
-  </div>
-</header>
+  <header class="header-desktop">
+    <div class="header-container">
+      <div class="header-left">
+        <a href="index.html" class="brand">
+          <img src="./assets/palm-white.png" alt="Palm logo" class="brand-mark">
+          <span class="brand-title">Your Home, Our Care</span>
+        </a>
+      </div>
 
-<div id="drawer" class="drawer" aria-hidden="true">
-  <div class="drawer-panel">
-    <button id="menu-close" class="menu-btn" onclick="document.getElementById('drawer').classList.remove('open')" onclick="document.getElementById('drawer').classList.remove('open')" style="align-self:flex-end;background:#0f3561">✕</button>
-    <a href="./index.html#">Home</a>
-    <a href="./index.html#services">Services</a>
-    <a href="./index.html#why">Why Us</a>
-    <a href="./index.html#contact">Contact</a>
-  </div>
-</div>
-<script defer src="./assets/script.js"></script>
+      <div class="header-center">
+        <nav class="main-nav">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#why">Why Us</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </div>
 
-<section class="hero">
-  <div class="container hero-wrap">
-    <div>
-      <div class="kicker en">Full-service care for villas & apartments</div>
-      <div class="kicker ru">Полный сервис для вилл и апартаментов</div>
-      <h1 id="main">Alanya Property Management</h1>
-      <p class="en">Sales & rentals, renovation, cleaning, and pool & garden maintenance — with fast English & Russian support.</p>
-      <p class="ru">Продажа и аренда, ремонт, клининг, обслуживание бассейна и сада — с оперативной поддержкой на английском и русском.</p>
-      <div style="margin-top:12px;display:flex;gap:12px;flex-wrap:wrap">
-        <a class="button" id="wa-main" href="#">📲 <span class="en">Contact on WhatsApp</span><span class="ru">Связаться в WhatsApp</span></a>
-        <a class="button secondary" href="#services">🔎 <span class="en">See Services</span><span class="ru">Наши услуги</span></a>
+      <div class="header-right">
+        <button id="btn-en" class="flag-btn"><span class="flag">🇬🇧</span></button>
+        <button id="btn-ru" class="flag-btn"><span class="flag">🇷🇺</span></button>
       </div>
     </div>
-    <div class="hero-card">
-      <strong class="en">Quick Quote</strong>
-      <strong class="ru">Быстрая заявка</strong>
-      <form id="quote" style="margin-top:.5rem;display:grid;gap:10px">
-        <input name="name" placeholder="Name / Имя" required style="padding:.8rem;border-radius:12px;border:1px solid #d7e8ee">
-        <input name="phone" placeholder="Phone or WhatsApp" style="padding:.8rem;border-radius:12px;border:1px solid #d7e8ee">
-        <select name="service" style="padding:.8rem;border-radius:12px;border:1px solid #d7e8ee">
-          <option>Property Sales & Rentals</option>
-          <option>Pool & Garden Maintenance</option>
-          <option>Renovation & Repair</option>
-          <option>Cleaning & Inspection</option>
-          <option>Other</option>
-        </select>
-        <textarea name="msg" rows="3" placeholder="Brief message / Сообщение" style="padding:.8rem;border-radius:12px;border:1px solid #d7e8ee"></textarea>
-        <button class="button" type="submit">✅ <span class="en">Get WhatsApp Reply</span><span class="ru">Ответ в WhatsApp</span></button>
-      </form>
-    </div>
-  </div>
-</section>
+  </header>
 
-<section id="services" class="section">
-  <div class="container">
-    <h2 class="en">Our Services</h2><h2 class="ru">Наши услуги</h2>
-    <div class="grid">
-      <a class="card" href="services/property.html"><h3 class="en">Property Sales & Rentals</h3><h3 class="ru">Продажа и Аренда</h3><p class="en">Buy, sell or rent with local expertise and transparent fees.</p><p class="ru">Покупка, продажа и аренда — местная экспертиза и прозрачные комиссии.</p><span class="go">→</span></a>
-      <a class="card" href="services/pool-garden.html"><h3 class="en">Pool & Garden Maintenance</h3><h3 class="ru">Обслуживание бассейна и сада</h3><p class="en">Regular cleaning, water chemistry, landscaping and pest control.</p><p class="ru">Регулярная чистка, химия воды, ландшафт и контроль вредителей.</p><span class="go">→</span></a>
-      <a class="card" href="services/renovation.html"><h3 class="en">Renovation & Repair</h3><h3 class="ru">Ремонт и отделка</h3><p class="en">Turn-key refurbishments, painting, kitchens, bathrooms.</p><p class="ru">Ремонт «под ключ», покраска, кухни, ванные комнаты.</p><span class="go">→</span></a>
-      <a class="card" href="services/cleaning.html"><h3 class="en">Cleaning & Inspection</h3><h3 class="ru">Клининг и инспекция</h3><p class="en">Pre-arrival deep clean, changeovers, damage checks, photo reports.</p><p class="ru">Глубокая уборка, смена гостей, проверка повреждений, фото-отчёты.</p><span class="go">→</span></a>
-    </div>
-  </div>
-</section>
+  <script defer src="./assets/script.js"></script>
 
-<section id="why" class="section" style="background:linear-gradient(180deg,#edf9fb,#fff)">
-  <div class="container">
-    <h2 class="en">Why choose us</h2><h2 class="ru">Почему мы</h2>
-    <ul>
-      <li class="en">English & Russian support with fast response.</li>
-      <li class="ru">Поддержка на английском и русском, быстрые ответы.</li>
-      <li class="en">Trusted local partners for maintenance and repairs.</li>
-      <li class="ru">Надёжные местные партнёры для обслуживания и ремонта.</li>
-      <li class="en">Clear pricing, photo/video proof for all work.</li>
-      <li class="ru">Прозрачные цены, фото/видео-отчёты по каждому заказу.</li>
-    </ul>
-  </div>
-</section>
-
-<section id="contact" class="section">
-  <div class="container">
-    <h2 class="en">Contact us</h2><h2 class="ru">Связаться</h2>
-    <p class="en">Click to chat on WhatsApp. We reply fast.</p>
-    <p class="ru">Напишите нам в WhatsApp. Отвечаем быстро.</p>
-    <a class="button" id="wa-main" href="#">📲 WhatsApp</a>
-  </div>
-</section>
-
-<footer>
-  <div class="container footer-grid">
-    <div>
-      <strong>Alanya Property Management</strong>
-      <p class="fine">Property • Garden • Pool • Renovation • Insurance</p>
-      <a class="button" href="./index.html#services" style="margin-top:8px">✨ <span class="en">Explore Services</span><span class="ru">Посмотреть услуги</span></a>
+  <section class="hero" id="home">
+    <div class="container hero-wrap">
+      <h1 id="main">Alanya Property Management</h1>
+      <p class="en">Sales & rentals, renovation, cleaning, and pool & garden maintenance — with fast English & Russian support.</p>
+      <p class="ru">Продажа и аренда, ремонт, клининг, обслуживание бассейна и сада — с оперативной поддержкой EN/RU.</p>
+      <div class="hero-buttons">
+        <a href="#" id="wa-main" class="button primary">💬 Contact on WhatsApp</a>
+        <a href="#services" class="button secondary">See Services</a>
+      </div>
     </div>
-    <div>
-      <p class="fine">WhatsApp: <a href="https://wa.me/905366928934" target="_blank" rel="noopener">+90 536 692 89 34</a></p>
-      <p class="fine">Email: <a href="mailto:info@alanyapropertymanagement.com">info@alanyapropertymanagement.com</a></p>
-      <p class="fine"><a href="./kvkk.html">KVKK</a> / <a href="./privacy.html">Privacy</a> • <a href="./cookies.html">Cookies</a></p>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <a class="card" href="services/property.html">
+          <h3>Property Sales & Rentals</h3>
+          <p>Buy, sell or rent with local expertise and transparent fees.</p>
+        </a>
+
+        <a class="card" href="services/pool-garden.html">
+          <h3>Pool & Garden Maintenance</h3>
+          <p>Regular cleaning, landscaping and water chemistry balance.</p>
+        </a>
+
+        <a class="card" href="services/renovation.html">
+          <h3>Renovation & Repair</h3>
+          <p>Turn-key refurbishments, painting, kitchens, bathrooms.</p>
+        </a>
+
+        <a class="card" href="services/cleaning.html">
+          <h3>Cleaning & Inspection</h3>
+          <p>Deep clean, changeovers, photo reports for property owners.</p>
+        </a>
+      </div>
     </div>
-  </div>
-</footer>
-</body></html>
+  </section>
+
+  <section id="why" class="section" style="background:linear-gradient(180deg,#edf9fb,#fff)">
+    <div class="container">
+      <h2>Why Choose Us</h2>
+      <ul>
+        <li>English & Russian support with fast response.</li>
